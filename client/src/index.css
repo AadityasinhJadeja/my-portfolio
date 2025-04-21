@@ -1,0 +1,241 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground scroll-smooth;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500;
+  }
+  
+  .bg-gradient {
+    @apply bg-gradient-to-r from-primary to-purple-500;
+  }
+  
+  .timeline-dot::before {
+    content: '';
+    @apply absolute w-0.5 bg-gray-200 dark:bg-gray-700 top-6 bottom-0 left-[7px] h-[calc(100%-12px)];
+  }
+  
+  .timeline-item:last-child .timeline-dot::before {
+    @apply hidden;
+  }
+  
+  /* Enhanced project card animations */
+  .project-card {
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-xl;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .project-card:hover img {
+    @apply scale-105;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Skill bar animation */
+  .skill-bar {
+    @apply transition-all duration-1000;
+  }
+  
+  /* General animations */
+  .animated-slide-up {
+    @apply transition-all duration-500 translate-y-6 opacity-0;
+  }
+  
+  .animated-slide-up.in-view {
+    @apply translate-y-0 opacity-100;
+  }
+  
+  /* Button animations */
+  .btn-hover-effect {
+    @apply relative overflow-hidden transition-all duration-300 transform hover:scale-105;
+  }
+  
+  .btn-hover-effect::before {
+    content: '';
+    @apply absolute w-full h-full bg-white opacity-0 top-0 left-0 transition-opacity duration-300;
+  }
+  
+  .btn-hover-effect:hover::before {
+    @apply opacity-20;
+    animation: pulse 1.5s infinite;
+  }
+  
+  /* Skill badge hover effect */
+  .skill-badge {
+    transition: all 0.3s ease;
+  }
+  
+  .skill-badge:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Tab transition effects */
+  .tab-content-transition {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .tab-content-enter {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  
+  .tab-content-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
+  /* Animations */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.1;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 0.2;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.1;
+    }
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -100% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  .animate-shimmer {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.2) 25%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+  
+  .animate-shimmer-slow {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.1) 25%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 4s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  .animate-blink {
+    animation: blink 1s step-end infinite;
+  }
+  
+  @keyframes bounce-subtle {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+  }
+  
+  .animate-bounce-subtle {
+    animation: bounce-subtle 2s ease-in-out infinite;
+  }
+  
+  @keyframes pulse-subtle {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+  
+  .animate-pulse-subtle {
+    animation: pulse-subtle 2s ease-in-out infinite;
+  }
+  
+  @keyframes text-wave {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-4px);
+    }
+    75% {
+      transform: translateY(4px);
+    }
+  }
+  
+  .animate-text-wave {
+    display: inline-block;
+    animation: text-wave 5s ease-in-out infinite;
+  }
+  
+  /* Interactive interests */
+  .interest-card {
+    @apply transition-all duration-300 transform hover:scale-110 hover:shadow-md;
+  }
+  
+  .interest-icon {
+    @apply transition-all duration-300;
+  }
+  
+  .interest-card:hover .interest-icon {
+    @apply text-primary transform rotate-12;
+  }
+  
+  /* Company icon container animation */
+  .company-icon-container {
+    @apply transition-all duration-500;
+  }
+  
+  .company-icon-container:hover {
+    @apply transform scale-110 bg-blue-200 dark:bg-blue-800/50;
+  }
+}
