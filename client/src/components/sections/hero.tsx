@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { personalInfo } from "@/lib/data";
-import ProfileImage from '/Users/aadityasinhjadeja/Downloads/DataInsightHub/images/IMG_9806.jpg.png';
+import ProfileImage from '@/assets/profile.png';
 
 export default function Hero() {
   const [displayText, setDisplayText] = useState("");
@@ -48,41 +48,29 @@ export default function Hero() {
               </span>
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl">
-            I focus on leveraging AI and data science to solve real-world problems.
-            From insights to action - I design systems that learn and scale.
+              {personalInfo.about[0]}
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex gap-4">
               <a
                 href="#contact"
-                className="px-6 py-3 bg-gradient text-white rounded-md shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 btn-hover-effect"
+                className="btn-primary"
               >
                 Get in Touch
               </a>
               <a
                 href="#projects"
-                className="px-6 py-3 border border-gray-300 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary transition-all duration-300 transform hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800"
+                className="btn-secondary"
               >
-                <span className="flex items-center">
-                  View My Work
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
-                </span>
+                View My Work
               </a>
             </div>
           </div>
-          <div className="md:w-1/3 mt-12 md:mt-0 animate-fade-in">
-            <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto animate-float">
-              <div className="absolute inset-0 bg-gradient rounded-full opacity-20 blur-xl animate-pulse"></div>
-              <div className="absolute w-12 h-12 bg-blue-500 rounded-full -top-4 -right-4 opacity-20 animate-float" style={{ animationDelay: '0.5s' }}></div>
-              <div className="absolute w-8 h-8 bg-purple-500 rounded-full bottom-4 -left-4 opacity-20 animate-float" style={{ animationDelay: '1s' }}></div>
-              <img
-                src={ProfileImage}
-                alt={personalInfo.name}
-                className="relative rounded-full w-full h-full object-cover border-4 border-white dark:border-gray-800 shadow-lg transition-all duration-500 hover:shadow-2xl"
-              />
-              <div className="absolute inset-0 border-4 border-transparent hover:border-primary/20 rounded-full transition-all duration-500"></div>
-            </div>
+          <div className="md:w-1/3 mt-8 md:mt-0 animate-fade-in-up">
+            <img
+              src={ProfileImage}
+              alt={personalInfo.name}
+              className="rounded-full w-64 h-64 object-cover border-4 border-primary/20 shadow-lg"
+            />
           </div>
         </div>
       </div>
