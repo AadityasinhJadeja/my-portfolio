@@ -89,22 +89,26 @@ export default function Projects() {
                   ))}
                 </div>
                 <div className="flex justify-between">
-                  <a 
-                    href={project.demoUrl} 
-                    className="text-primary hover:underline transition-colors duration-300"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Demo
-                  </a>
-                  <a 
-                    href={project.codeUrl} 
-                    className="text-gray-600 dark:text-gray-300 hover:text-primary hover:dark:text-primary transition-colors duration-300"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-github"></i> Code
-                  </a>
+                  {project.demoUrl && (
+                    <a 
+                      href={project.demoUrl} 
+                      className="text-primary hover:underline transition-colors duration-300"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Demo
+                    </a>
+                  )}
+                  {project.codeUrl && (
+                    <a 
+                      href={project.codeUrl} 
+                      className="text-gray-600 dark:text-gray-300 hover:text-primary hover:dark:text-primary transition-colors duration-300"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fab fa-github"></i> Code
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

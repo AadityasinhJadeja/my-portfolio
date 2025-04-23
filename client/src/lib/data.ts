@@ -143,8 +143,8 @@ export const projects: Project[] = [
     title: "Sales & Customer Insights Dashboard",
     description: "Created an interactive Tableau dashboard for customer and sales analytics, identifying top buyers, seasonal sales patterns, and key product trends. Enabled better decision-making with dynamic filters.",
     technologies: ["Tableau", "Data Analytics", "KPI Tracking", "Data Visualization"],  
-    demoUrl: "#projects",
-    codeUrl: "https://github.com/AadityasinhJadeja/ToyStory_GPT_LLM.git",
+    demoUrl: "https://public.tableau.com/views/SalesCustomerDashboardsDynamic_17260217300630/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+    codeUrl: "#projects",
     imageUrl: "https://www.highspot.com/wp-content/uploads/2023/07/essential-sales-skills.jpg"
   },
   {
