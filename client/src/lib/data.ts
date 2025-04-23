@@ -125,7 +125,6 @@ export const projects: Project[] = [
     title: "HydroVision",
     description: "A data science project tackling California’s water contamination crisis by analyzing 2M+ records from 1903–2024. Used logistic regression (95% accuracy) to classify water quality and uncover historical, regional toxicity trends.",
     technologies: ["Python", "Pandas", "Logistic Regression", "Data Analysis","Scikit-learn"],
-    demoUrl: "#projects",
     codeUrl: "#projects",
     imageUrl: "https://static.wixstatic.com/media/f579f6_281d56daa4fd4eb28b2ed41006df9018~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,enc_avif,quality_auto/f579f6_281d56daa4fd4eb28b2ed41006df9018~mv2.jpg"
   },
@@ -144,7 +143,6 @@ export const projects: Project[] = [
     description: "Created an interactive Tableau dashboard for customer and sales analytics, identifying top buyers, seasonal sales patterns, and key product trends. Enabled better decision-making with dynamic filters.",
     technologies: ["Tableau", "Data Analytics", "KPI Tracking", "Data Visualization"],  
     demoUrl: "https://public.tableau.com/views/SalesCustomerDashboardsDynamic_17260217300630/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-    codeUrl: "#projects",
     imageUrl: "https://www.highspot.com/wp-content/uploads/2023/07/essential-sales-skills.jpg"
   },
   {
@@ -152,7 +150,7 @@ export const projects: Project[] = [
     title: "Solar X-Ray Intensity Analysis",
     description: "Analyzed solar monitor data to identify intensity trends and anomalies. Improved data readability by 50% using Python-based visualizations and Excel, aiding scientific interpretation.",
     technologies: ["Python", "Data Cleaning", "Scientific Analysis", "Excel"],
-    demoUrl: "#projects",
+    demoUrl: "https://solar-xray-monitor-git-main-aadityasinhjadeja96-gmailcom.vercel.app",
     codeUrl: "https://github.com/AadityasinhJadeja/solar-xray-monitor.git",
     imageUrl: "https://cff2.earth.com/uploads/2025/04/16151643/sun_geomagnetic-solar-storm_cme_auroras_1m.webp"
   },
@@ -170,7 +168,6 @@ export const projects: Project[] = [
     title: "Notezipper",
     description: "Location-based weather application with 7-day forecasts, radar maps, and severe weather alerts.",
     technologies: ["React"," JavaScript", "HTML", "CSS"],
-    demoUrl: "#projects",
     codeUrl: "https://github.com/AadityasinhJadeja/NoteZipper.git",
     imageUrl: "https://wp.dailybruin.com/images/50424_webns917evernotepicao.jpg"
   },
@@ -189,7 +186,6 @@ export const projects: Project[] = [
     description: "Working on this project!",
     technologies: ["React"," JavaScript", "HTML", "CSS"],
     demoUrl: "#projects",
-    codeUrl: "",
     imageUrl: "https://trellis.net/wp-content/uploads/2025/01/Walmart-Denali-depack-2-1.jpg?w=1024"
   }
 ];
