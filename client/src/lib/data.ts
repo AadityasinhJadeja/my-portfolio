@@ -135,7 +135,7 @@ export const projects: Project[] = [
     description: "Built a GPT-style language model using PyTorch to generate Toy Story-themed text. Applied self-attention and transformer techniques to enhance character-specific output accuracy.",
     technologies: ["PyTorch", "Transformers", "Deep Learning", "Natural Language Processing", "GenAI"],
     demoUrl: "#projects",
-    codeUrl: "#projects",
+    codeUrl: "https://github.com/AadityasinhJadeja/ToyStory_GPT_LLM.git",
     imageUrl: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/02/toy-story-5.jpg"
   },
   {
