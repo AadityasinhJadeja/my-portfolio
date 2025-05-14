@@ -122,57 +122,14 @@ export const experiences: Experience[] = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: "HydroVision",
-    description: "A data science project tackling California’s water contamination crisis by analyzing 2M+ records from 1903–2024. Used logistic regression (95% accuracy) to classify water quality and uncover historical, regional toxicity trends.",
-    technologies: ["Python", "Pandas", "Logistic Regression", "Data Analysis","Scikit-learn"],
-    codeUrl: "#projects",
-    imageUrl: "https://static.wixstatic.com/media/f579f6_281d56daa4fd4eb28b2ed41006df9018~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,enc_avif,quality_auto/f579f6_281d56daa4fd4eb28b2ed41006df9018~mv2.jpg"
+    title: "FoodFlow AI",
+    description: "Working on this project!",
+    technologies: ["React"," JavaScript", "HTML", "CSS"],
+    demoUrl: "https://drive.google.com/file/d/1HipYfYzp1JS90y5_hVdrU0kbDSkW3A3g/view?usp=sharing",
+    imageUrl: "https://trellis.net/wp-content/uploads/2025/01/Walmart-Denali-depack-2-1.jpg?w=1024"
   },
   {
     id: 2,
-    title: "Toy Story GPT",
-    description: "Built a GPT-style language model using PyTorch to generate Toy Story-themed text. Applied self-attention and transformer techniques to enhance character-specific output accuracy.",
-    technologies: ["PyTorch", "Transformers", "Deep Learning", "Natural Language Processing", "GenAI"],
-    demoUrl: "#projects",
-    codeUrl: "https://github.com/AadityasinhJadeja/ToyStory_GPT_LLM.git",
-    imageUrl: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/02/toy-story-5.jpg"
-  },
-  {
-    id: 3,
-    title: "Sales & Customer Insights Dashboard",
-    description: "Created an interactive Tableau dashboard for customer and sales analytics, identifying top buyers, seasonal sales patterns, and key product trends. Enabled better decision-making with dynamic filters.",
-    technologies: ["Tableau", "Data Analytics", "KPI Tracking", "Data Visualization"],  
-    demoUrl: "https://public.tableau.com/views/SalesCustomerDashboardsDynamic_17260217300630/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-    imageUrl: "https://www.highspot.com/wp-content/uploads/2023/07/essential-sales-skills.jpg"
-  },
-  {
-    id: 4,
-    title: "Solar X-Ray Intensity Analysis",
-    description: "Analyzed solar monitor data to identify intensity trends and anomalies. Improved data readability by 50% using Python-based visualizations and Excel, aiding scientific interpretation.",
-    technologies: ["Python", "Data Cleaning", "Scientific Analysis", "Excel"],
-    demoUrl: "https://solar-xray-monitor-git-main-aadityasinhjadeja96-gmailcom.vercel.app",
-    codeUrl: "https://github.com/AadityasinhJadeja/solar-xray-monitor.git",
-    imageUrl: "https://cff2.earth.com/uploads/2025/04/16151643/sun_geomagnetic-solar-storm_cme_auroras_1m.webp"
-  },
-  {
-    id: 5,
-    title: "Product Purchase Prediction",
-    description: "Deployed a Streamlit-based app that predicts product purchase behavior using K-Nearest Neighbors. Trained on social network data to classify intent based on age and salary.",
-    technologies: ["Machine Learning", "KNN", "Scikit-Learn", "Binary Classification", "Streamlit"],
-    demoUrl: "#projects",
-    codeUrl: "#projects", 
-    imageUrl: "https://www.hotelestequendama.com.co/assets/cache/uploads/tequendama-hoteles/destinos/cali/shopping/1920x1080/shopping-compras-cali-tequendama-hoteles-colombia-1708514344.jpeg"
-  },
-  {
-    id: 6,
-    title: "Notezipper",
-    description: "Location-based weather application with 7-day forecasts, radar maps, and severe weather alerts.",
-    technologies: ["React"," JavaScript", "HTML", "CSS"],
-    codeUrl: "https://github.com/AadityasinhJadeja/NoteZipper.git",
-    imageUrl: "https://wp.dailybruin.com/images/50424_webns917evernotepicao.jpg"
-  },
-  {
-    id: 7,
     title: "HERMS - Healthcare Equipment Rental Management System",
     description: "Working on this project!",
     technologies: ["SQL","Healthcare"],
@@ -181,12 +138,55 @@ export const projects: Project[] = [
     imageUrl: "https://d2c0db5b8fb27c1c9887-9b32efc83a6b298bb22e7a1df0837426.ssl.cf2.rackcdn.com/17910579-equipment-rental-1400x724.jpeg"
   },
   {
-    id: 8,
-    title: "FoodFlow AI",
-    description: "Working on this project!",
-    technologies: ["React"," JavaScript", "HTML", "CSS"],
+    id: 3,
+    title: "HydroVision",
+    description: "A data science project tackling California’s water contamination crisis by analyzing 2M+ records from 1903–2024. Used logistic regression (95% accuracy) to classify water quality and uncover historical, regional toxicity trends.",
+    technologies: ["Python", "Pandas", "Logistic Regression", "Data Analysis","Scikit-learn"],
+    codeUrl: "#projects",
+    imageUrl: "https://static.wixstatic.com/media/f579f6_281d56daa4fd4eb28b2ed41006df9018~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,enc_avif,quality_auto/f579f6_281d56daa4fd4eb28b2ed41006df9018~mv2.jpg"
+  },
+  {
+    id: 4,
+    title: "Toy Story GPT",
+    description: "Built a GPT-style language model using PyTorch to generate Toy Story-themed text. Applied self-attention and transformer techniques to enhance character-specific output accuracy.",
+    technologies: ["PyTorch", "Transformers", "Deep Learning", "Natural Language Processing", "GenAI"],
     demoUrl: "#projects",
-    imageUrl: "https://trellis.net/wp-content/uploads/2025/01/Walmart-Denali-depack-2-1.jpg?w=1024"
+    codeUrl: "https://github.com/AadityasinhJadeja/ToyStory_GPT_LLM.git",
+    imageUrl: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/02/toy-story-5.jpg"
+  },
+  {
+    id: 5,
+    title: "Sales & Customer Insights Dashboard",
+    description: "Created an interactive Tableau dashboard for customer and sales analytics, identifying top buyers, seasonal sales patterns, and key product trends. Enabled better decision-making with dynamic filters.",
+    technologies: ["Tableau", "Data Analytics", "KPI Tracking", "Data Visualization"],  
+    demoUrl: "https://public.tableau.com/views/SalesCustomerDashboardsDynamic_17260217300630/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+    imageUrl: "https://www.highspot.com/wp-content/uploads/2023/07/essential-sales-skills.jpg"
+  },
+  {
+    id: 6,
+    title: "Solar X-Ray Intensity Analysis",
+    description: "Analyzed solar monitor data to identify intensity trends and anomalies. Improved data readability by 50% using Python-based visualizations and Excel, aiding scientific interpretation.",
+    technologies: ["Python", "Data Cleaning", "Scientific Analysis", "Excel"],
+    demoUrl: "https://solar-xray-monitor-git-main-aadityasinhjadeja96-gmailcom.vercel.app",
+    codeUrl: "https://github.com/AadityasinhJadeja/solar-xray-monitor.git",
+    imageUrl: "https://cff2.earth.com/uploads/2025/04/16151643/sun_geomagnetic-solar-storm_cme_auroras_1m.webp"
+  },
+  {
+    id: 7,
+    title: "Product Purchase Prediction",
+    description: "Deployed a Streamlit-based app that predicts product purchase behavior using K-Nearest Neighbors. Trained on social network data to classify intent based on age and salary.",
+    technologies: ["Machine Learning", "KNN", "Scikit-Learn", "Binary Classification", "Streamlit"],
+    demoUrl: "#projects",
+    codeUrl: "#projects", 
+    imageUrl: "https://www.hotelestequendama.com.co/assets/cache/uploads/tequendama-hoteles/destinos/cali/shopping/1920x1080/shopping-compras-cali-tequendama-hoteles-colombia-1708514344.jpeg"
+  },
+  {
+    id: 8,
+    title: "Notezipper",
+    description: "Location-based weather application with 7-day forecasts, radar maps, and severe weather alerts.",
+    technologies: ["React"," JavaScript", "HTML", "CSS"],
+    codeUrl: "https://github.com/AadityasinhJadeja/NoteZipper.git",
+    imageUrl: "https://wp.dailybruin.com/images/50424_webns917evernotepicao.jpg"
   }
 ];
 
