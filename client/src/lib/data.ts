@@ -48,7 +48,7 @@ export const experiences: Experience[] = [
     title: "Data Scientist Intern",
     company: "Labcorp",
     domain: "Artificial Intelligence(AI)",
-    period: "Incoming Summer 2025",
+    period: "May 2025 - Present",
     description: "Joining Labcorp’s AI team to build predictive models and GenAI pipelines for biomedical datasets.",
     technologies: ["Python", "Machine Learning", "AWS", "GenAI"]
   },
