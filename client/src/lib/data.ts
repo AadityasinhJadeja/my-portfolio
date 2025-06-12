@@ -16,8 +16,8 @@ export const personalInfo: PersonalInfo = {
   availability: "Full-time / Co-Op",
   about: [
     
-    "I’m a data-driven problem solver who loves building AI-powered solutions that actually make a difference. My journey blends product strategy, data science, and storytelling — whether it's analyzing behavior patterns, launching digital experiences, or optimizing performance through insights.",
-    "Over the past few years, I’ve worked across industries — from space research at ISRO to marketing strategy for 500K+ audiences, to supporting students at CSULB. Every experience has shaped the way I think about products, people, and impact.",
+    "I'm a data-driven problem solver who loves building AI-powered solutions that actually make a difference. My journey blends product strategy, data science, and storytelling — whether it's analyzing behavior patterns, launching digital experiences, or optimizing performance through insights.",
+    "Over the past few years, I've worked across industries — from space research at ISRO to marketing strategy for 500K+ audiences, to supporting students at CSULB. Every experience has shaped the way I think about products, people, and impact.",
     "Outside of work, you'll find me mentoring students, experimenting with Notion dashboards, or grabbing coffee while thinking about the next big idea to build."
     
   ],
@@ -49,7 +49,7 @@ export const experiences: Experience[] = [
     company: "Labcorp",
     domain: "Artificial Intelligence(AI)",
     period: "May 2025 - Present",
-    description: "Joining Labcorp’s AI team to build predictive models and GenAI pipelines for biomedical datasets.",
+    description: "Joining Labcorp's AI team to build predictive models and GenAI pipelines for biomedical datasets.",
     technologies: ["Python", "Machine Learning", "AWS", "GenAI"]
   },
   {
@@ -67,7 +67,7 @@ export const experiences: Experience[] = [
     company: "Perplexity",
     domain: "Artificial Intelligence(AI)",
     period: "March 2025 - Present",
-    description: "A competitive program designed to develop AI leaders. Engaging in fireside chats with top AI executives, hands-on workshops, and industry networking to explore AI’s business impact and drive adoption in real-world workflows.",
+    description: "A competitive program designed to develop AI leaders. Engaging in fireside chats with top AI executives, hands-on workshops, and industry networking to explore AI's business impact and drive adoption in real-world workflows.",
     technologies: ["GenAI", "LLM", "Replit", "Promt Engineering"]
   },
   {
@@ -94,7 +94,7 @@ export const experiences: Experience[] = [
     company: "Indian Space Research Organization (ISRO)",
     domain: "Space Research",
     period: "January 2024 - April 2024",
-    description: "Built automation tool using MATLAB to handle huge satellite datasets – no more manual work! Created a full report generation system that helps scientists present their findings with ease. Honestly, it's one of the proudest things I’ve built – knowing that something I made will be used by researchers for years.",
+    description: "Built automation tool using MATLAB to handle huge satellite datasets – no more manual work! Created a full report generation system that helps scientists present their findings with ease. Honestly, it's one of the proudest things I've built – knowing that something I made will be used by researchers for years.",
     technologies: ["Data Analysis", "MATLAB", "Report Generation", "Data Visualization", "Satellite Payload"]
   },
 
@@ -123,16 +123,16 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "FoodFlow AI",
-    description: "Working on this project!",
-    technologies: ["React"," JavaScript", "HTML", "CSS"],
+    description: "Designed an AI-powered system to help retailers minimize food waste and optimize inventory decisions. Led product strategy, system design, and sprint execution — from wireframes and architecture to competitive analysis — delivering a user-friendly prototype that turns waste data into actionable insights.",
+    technologies: ["Product Sense","Product Design", "UX & Prototyping", "AI"],
     demoUrl: "https://drive.google.com/file/d/1HipYfYzp1JS90y5_hVdrU0kbDSkW3A3g/view?usp=sharing",
     imageUrl: "https://trellis.net/wp-content/uploads/2025/01/Walmart-Denali-depack-2-1.jpg?w=1024"
   },
   {
     id: 2,
     title: "HERMS - Healthcare Equipment Rental Management System",
-    description: "Working on this project!",
-    technologies: ["SQL","Healthcare"],
+    description: "Built a Healthcare Device Rental & Maintenance Tracker to help hospitals efficiently manage medical equipment. Designed end-to-end database models (conceptual, logical, physical) and wrote optimized SQL queries for real-time tracking of device availability, usage, and maintenance. Improved data integrity and enabled actionable insights through structured reporting.",
+    technologies: ["SQL","Database Design", "Data Modeling", "Healthcare Operations"],
     demoUrl: "#projects",
     codeUrl: "",
     imageUrl: "https://d2c0db5b8fb27c1c9887-9b32efc83a6b298bb22e7a1df0837426.ssl.cf2.rackcdn.com/17910579-equipment-rental-1400x724.jpeg"
@@ -140,7 +140,7 @@ export const projects: Project[] = [
   {
     id: 3,
     title: "HydroVision",
-    description: "A data science project tackling California’s water contamination crisis by analyzing 2M+ records from 1903–2024. Used logistic regression (95% accuracy) to classify water quality and uncover historical, regional toxicity trends.",
+    description: "A data science project tackling California's water contamination crisis by analyzing 2M+ records from 1903–2024. Used logistic regression (95% accuracy) to classify water quality and uncover historical, regional toxicity trends.",
     technologies: ["Python", "Pandas", "Logistic Regression", "Data Analysis","Scikit-learn"],
     codeUrl: "#projects",
     imageUrl: "https://static.wixstatic.com/media/f579f6_281d56daa4fd4eb28b2ed41006df9018~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,enc_avif,quality_auto/f579f6_281d56daa4fd4eb28b2ed41006df9018~mv2.jpg"
