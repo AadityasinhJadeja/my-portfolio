@@ -49,7 +49,7 @@ export const experiences: Experience[] = [
     company: "Labcorp",
     domain: "Artificial Intelligence(AI)",
     period: "May 2025 - Present",
-    description: "Joining Labcorp's AI team to build predictive models and GenAI pipelines for biomedical datasets.",
+    description: "Improving Health. Improving Lives. Creating Impact on the AI team.",
     technologies: ["Python", "Machine Learning", "AWS", "GenAI"]
   },
   {
