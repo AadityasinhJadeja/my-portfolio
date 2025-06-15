@@ -133,8 +133,7 @@ export const projects: Project[] = [
     title: "HERMS - Healthcare Equipment Rental Management System",
     description: "Built a Healthcare Device Rental & Maintenance Tracker to help hospitals efficiently manage medical equipment. Designed end-to-end database models (conceptual, logical, physical) and wrote optimized SQL queries for real-time tracking of device availability, usage, and maintenance.",
     technologies: ["SQL","Database Design", "Data Modeling", "Healthcare Operations"],
-    demoUrl: "https://www.canva.com/design/DAGqcG7u73c/YFnTFpRcywwsWGYB-2li_Q/view?utm_content=DAGqcG7u73c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=haf09203be0",
-    codeUrl: "",
+    demoUrl: "https://www.canva.com/design/DAGqcHoDOmE/PXSWTgn3j5N2do0A7dWkPw/view?utm_content=DAGqcHoDOmE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd264d792c3",
     imageUrl: "https://d2c0db5b8fb27c1c9887-9b32efc83a6b298bb22e7a1df0837426.ssl.cf2.rackcdn.com/17910579-equipment-rental-1400x724.jpeg"
   },
   {
