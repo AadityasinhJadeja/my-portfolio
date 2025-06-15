@@ -56,7 +56,7 @@ export const experiences: Experience[] = [
     id: 2,
     title: "Growth Product Manager",
     company: "Yudi J",
-    domain: "EdTech - Product Growth",
+    domain: "EdTech - Product Growth (Volunteer)",
     period: "March 2025 - Present",
     description: "Led growth strategy for a digital product serving 2,000+ users, focused on helping international students land jobs in the U.S. Designed and executed initiatives across user onboarding, referral programs, and community engagement to improve retention and conversions.",
     technologies: ["Growth Strategy", "Conversion Funnel", "Product Optimization", "Notion"]
