@@ -123,7 +123,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "FoodFlow AI",
-    description: "Designed an AI-powered system to help retailers minimize food waste and optimize inventory decisions. Led product strategy, system design, and sprint execution - from wireframes and architecture to competitive analysis — delivering a user-friendly prototype that turns waste data into actionable insights.",
+    description: "Designed an AI-powered system to help retailers minimize food waste and optimize inventory decisions. Led product strategy, system design, and sprint execution from wireframes and architecture to competitive analysis delivering a user-friendly prototype that turns waste data into actionable insights.",
     technologies: ["Product Sense","Product Design", "UX & Prototyping", "AI"],
     demoUrl: "https://drive.google.com/file/d/1HipYfYzp1JS90y5_hVdrU0kbDSkW3A3g/view?usp=sharing",
     imageUrl: "https://trellis.net/wp-content/uploads/2025/01/Walmart-Denali-depack-2-1.jpg?w=1024"
@@ -131,7 +131,7 @@ export const projects: Project[] = [
   {
     id: 2,
     title: "HERMS - Healthcare Equipment Rental Management System",
-    description: "Built a Healthcare Device Rental & Maintenance Tracker to help hospitals efficiently manage medical equipment. Designed end-to-end database models (conceptual, logical, physical) and wrote optimized SQL queries for real-time tracking of device availability, usage, and maintenance. Improved data integrity and enabled actionable insights through structured reporting.",
+    description: "Built a Healthcare Device Rental & Maintenance Tracker to help hospitals efficiently manage medical equipment. Designed end-to-end database models (conceptual, logical, physical) and wrote optimized SQL queries for real-time tracking of device availability, usage, and maintenance.",
     technologies: ["SQL","Database Design", "Data Modeling", "Healthcare Operations"],
     demoUrl: "#projects",
     codeUrl: "",
