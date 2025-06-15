@@ -16,8 +16,8 @@ export const personalInfo: PersonalInfo = {
   availability: "Full-time / Co-Op",
   about: [
     
-    "I'm a data-driven problem solver who loves building AI-powered solutions that actually make a difference. My journey blends product strategy, data science, and storytelling — whether it's analyzing behavior patterns, launching digital experiences, or optimizing performance through insights.",
-    "Over the past few years, I've worked across industries — from space research at ISRO to marketing strategy for 500K+ audiences, to supporting students at CSULB. Every experience has shaped the way I think about products, people, and impact.",
+    "I'm a data-driven problem solver who loves building AI-powered solutions that actually make a difference. My journey blends product strategy, data science, and storytelling, whether it's analyzing behavior patterns, launching digital experiences, or optimizing performance through insights.",
+    "Over the past few years, I've worked across industries, from space research at ISRO to marketing strategy for 500K+ audiences, to supporting students at CSULB. Every experience has shaped the way I think about products, people, and impact.",
     "Outside of work, you'll find me mentoring students, experimenting with Notion dashboards, or grabbing coffee while thinking about the next big idea to build."
     
   ],
@@ -123,7 +123,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "FoodFlow AI",
-    description: "Designed an AI-powered system to help retailers minimize food waste and optimize inventory decisions. Led product strategy, system design, and sprint execution — from wireframes and architecture to competitive analysis — delivering a user-friendly prototype that turns waste data into actionable insights.",
+    description: "Designed an AI-powered system to help retailers minimize food waste and optimize inventory decisions. Led product strategy, system design, and sprint execution - from wireframes and architecture to competitive analysis — delivering a user-friendly prototype that turns waste data into actionable insights.",
     technologies: ["Product Sense","Product Design", "UX & Prototyping", "AI"],
     demoUrl: "https://drive.google.com/file/d/1HipYfYzp1JS90y5_hVdrU0kbDSkW3A3g/view?usp=sharing",
     imageUrl: "https://trellis.net/wp-content/uploads/2025/01/Walmart-Denali-depack-2-1.jpg?w=1024"
@@ -201,7 +201,7 @@ export const educations: Education[] = [
   },
   {
     id: 2,
-    degree: "Bachelor of Technology - Information Technology",
+    degree: "B.Tech - Information Technology Engineering",
     institution: "Birla Vishvakarma Mahavidyalaya, Anand",
     period: "May 2024",
     description: "Built a strong foundation in programming, databases, and analytics. Explored Big Data, OOPs, Operating Systems, Computer Networking, Java, and Python while developing a passion for solving real problems using tech.",
