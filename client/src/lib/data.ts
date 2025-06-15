@@ -17,7 +17,7 @@ export const personalInfo: PersonalInfo = {
   about: [
     
     "I'm a data-driven problem solver who loves building AI-powered solutions that actually make a difference. My journey blends product strategy, data science, and storytelling, whether it's analyzing behavior patterns, launching digital experiences, or optimizing performance through insights.",
-    "Over the past few years, I've worked across industries, from space research at ISRO to marketing strategy for 500K+ audiences, to supporting students at CSULB. Every experience has shaped the way I think about products, people, and impact.",
+    "Over the past few years, I've worked across industries, from space research at ISRO to marketing strategy for 700K+ audiences, to supporting students at CSULB. Every experience has shaped the way I think about products, people, and impact.",
     "Outside of work, you'll find me mentoring students, experimenting with Notion dashboards, or grabbing coffee while thinking about the next big idea to build."
     
   ],
@@ -85,7 +85,7 @@ export const experiences: Experience[] = [
     company: "Yudi J",
     domain: "EdTech - Content & Digital Marketing",
     period: "June 2024 - August 2024",
-    description: "Led content and product strategy for a digital platform serving 500,000+ international students. Translated audience behavior and competitive insights into a data-driven content roadmap. Worked cross-functionally to align product goals with user needs, improved platform engagement, and supported GTM planning for digital offerings.",
+    description: "Led content and product strategy for a digital platform serving 700,000+ international students. Translated audience behavior and competitive insights into a data-driven content roadmap. Worked cross-functionally to align product goals with user needs, improved platform engagement, and supported GTM planning for digital offerings.",
     technologies: ["Product Strategy", "Competetive Analysis", "Market Research", "Data Analysis", "Miro", "Notion"]
   },
   {
