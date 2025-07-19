@@ -21,10 +21,10 @@ export default function Experience() {
   
     const logoMap: Record<string, string> = {
       "Labcorp": "https://companieslogo.com/img/orig/LH-8eb9cabe.png?t=1720244492",
-      "Yudi J": "https://media.licdn.com/dms/image/v2/D560BAQGx-HlkGESPsA/company-logo_200_200/company-logo_200_200/0/1719097833405/yudi_j_academy_logo?e=1750896000&v=beta&t=tsQAOh0SuT22rLfVsUH0kFXkyBuu1X-kyg4OPZ4rJUE",
+      "Yudi J": "https://media.licdn.com/dms/image/v2/D560BAQGx-HlkGESPsA/company-logo_200_200/company-logo_200_200/0/1719097833405/yudi_j_academy_logo?e=1755734400&v=beta&t=PR2O8Zmc69ZRvWsMaxWDgPFLQg2QkzD8-dDFI8nnqEo",
       "ISRO": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Indian_Space_Research_Organisation_Logo.svg/1200px-Indian_Space_Research_Organisation_Logo.svg.png",
       "F13 Technologies": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////19vb8/Pz4+fkAAADFyMnSzMyknp60tLSyrq63sbHAurkUJy5XYGNLVVnZ2NgjpKdNra95w8Qao6WSzM4wPUMAl5ouo6aIxcZHq63l8/MAj5MkMzm4u7zr9vfN5+gAHSUAiIyu1teZzM2329zj5OWmRir2AAAAi0lEQVR4Ae3NQwIDQRAF0J+xbfP+V0x1xc42eINGCV9msyPJkgTQC1oPZGVH1XTDNE3NsnX7LOi4xPODEFEcxEEQJ2fBFCzLUZRhGJZZcTfIqvo82Kht2xoiKHekvwgOiiCCyViT7KqSiGA/kfntmWfBZSbFRaUDVmcIx1ooNP8QXVewrqOXyZDA/rYg6AwL50JI+AAAAABJRU5ErkJggg==",
-      "Machine Learning Club": "https://media.licdn.com/dms/image/v2/C4D0BAQFWH4mt5n2tfg/company-logo_200_200/company-logo_200_200/0/1679206365062?e=1750896000&v=beta&t=hj3cSwcXExizCv5ueiyx6jp8UEii8-hgstZvWeMkZuQ",
+      "Machine Learning Club": "https://media.licdn.com/dms/image/v2/C4D0BAQFWH4mt5n2tfg/company-logo_200_200/company-logo_200_200/0/1679206365062?e=1755734400&v=beta&t=yp8hK4gKMV4haURyxKLVOQ7uaDBQJBnUmFyphkIV-8c",
       "California State University, Long Beach": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Csulb_seal.JPG",
       "Perplexity": "https://zorgle.co.uk/wp-content/uploads/2024/11/Perplexity-logo.png",
     };
