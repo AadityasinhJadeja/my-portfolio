@@ -10,7 +10,7 @@ import {
 
 export const personalInfo: PersonalInfo = {
   name: "Aadityasinh Jadeja",
-  roles: ["Data Scientist", "Product Manager", "AI Business Fellow"],
+  roles: ["Data Scientist", "Product Manager", " Gen AI"],
   email: "jadeja.aadityasinh2@gmail.com",
   location: "Los Angeles, CA",
   availability: "Full-time / Co-Op",
