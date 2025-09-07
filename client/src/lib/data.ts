@@ -50,7 +50,7 @@ export const experiences: Experience[] = [
     domain: "Artificial Intelligence(AI)",
     period: "May 2025 - Present",
     description: "Leading a flagship AI initiative at Labcorp via using GenAI and machine learning to reimagine how lab testing is done. From cutting down turnaround times to reducing costs and scaling solutions across teams, my focus is on turning advanced research into products that create measurable impact for both scientists and patients.",
-    technologies: ["Python", "Machine Learning", "AWS", "GenAI"]
+    technologies: ["Python", "Machine Learning", "AWS", "GenAI", "Agile"]
   },
   {
     id: 2,
@@ -122,14 +122,22 @@ export const experiences: Experience[] = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Deep-Dive",
+    title: "Advantage",
+    description: "Investigated how Amazon leverages its private-label brand “Amazon Basics” to compete directly with third-party sellers. Analyzed how marketplace data and search placement give Amazon an edge, leading to cheaper essentials for customers but tighter margins and visibility challenges for sellers, highlighting product strategy, platform dynamics, and competitive analysis.",
+    technologies: ["Product Strategy","Monetization", "Ecosystem Thinking", "Platform Economics"],
+    demoUrl: "https://medium.com/@aadityasinhjadeja96/amazon-basics-the-silent-game-changer-inside-the-marketplace-de5eaa0a2e8d",
+    imageUrl: "https://swiftstart.com/cdn/shop/articles/what_is_amazon_basics.webp?v=1747858070"
+  },
+  {
+    id: 2,
+    title: "Product Deep-Dive",
     description: "Analyzed Jobright’s job-hunting platform to uncover usability gaps and growth opportunities. Proposed UX and feature enhancements like surfacing hidden tools and improving onboarding that could boost user adoption and retention while showcasing end-to-end product thinking.",
     technologies: ["User Adoption","UX Research", "Growth Strategy", "Competitive Analysis"],
     demoUrl: "https://medium.com/@aadityasinhjadeja96/jobright-through-my-eyes-a-product-deep-dive-0be89b4364d6",
     imageUrl: "https://jobright.ai/newimages/seo_logo.png"
   },
   {
-    id: 2,
+    id: 3,
     title: "FoodFlow AI",
     description: "Designed an AI-powered system to help retailers minimize food waste and optimize inventory decisions. Led product strategy, system design, and sprint execution from wireframes and architecture to competitive analysis delivering a user-friendly prototype that turns waste data into actionable insights.",
     technologies: ["Product Sense","Product Design", "UX & Prototyping", "AI"],
@@ -137,7 +145,7 @@ export const projects: Project[] = [
     imageUrl: "https://trellis.net/wp-content/uploads/2025/01/Walmart-Denali-depack-2-1.jpg?w=1024"
   },
   {
-    id: 3,
+    id: 4,
     title: "HERMS - Healthcare Equipment Rental Management System",
     description: "Built a Healthcare Device Rental & Maintenance Tracker to help hospitals efficiently manage medical equipment. Designed end-to-end database models (conceptual, logical, physical) and wrote optimized SQL queries for real-time tracking of device availability, usage, and maintenance.",
     technologies: ["SQL","Database Design", "Data Modeling", "Healthcare Operations"],
@@ -145,7 +153,7 @@ export const projects: Project[] = [
     imageUrl: "https://d2c0db5b8fb27c1c9887-9b32efc83a6b298bb22e7a1df0837426.ssl.cf2.rackcdn.com/17910579-equipment-rental-1400x724.jpeg"
   },
   {
-    id: 4,
+    id: 5,
     title: "HydroVision",
     description: "A data science project tackling California's water contamination crisis by analyzing 2M+ records from 1903–2024. Used logistic regression (95% accuracy) to classify water quality and uncover historical, regional toxicity trends.",
     technologies: ["Python", "Pandas", "Logistic Regression", "Data Analysis","Scikit-learn"],
@@ -153,7 +161,7 @@ export const projects: Project[] = [
     imageUrl: "https://static.wixstatic.com/media/f579f6_281d56daa4fd4eb28b2ed41006df9018~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,enc_avif,quality_auto/f579f6_281d56daa4fd4eb28b2ed41006df9018~mv2.jpg"
   },
   {
-    id: 5,
+    id: 6,
     title: "Toy Story GPT",
     description: "Built a GPT-style language model using PyTorch to generate Toy Story-themed text. Applied self-attention and transformer techniques to enhance character-specific output accuracy.",
     technologies: ["PyTorch", "Transformers", "Deep Learning", "Natural Language Processing", "GenAI"],
@@ -162,7 +170,7 @@ export const projects: Project[] = [
     imageUrl: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/02/toy-story-5.jpg"
   },
   {
-    id: 6,
+    id: 7,
     title: "Sales & Customer Insights Dashboard",
     description: "Created an interactive Tableau dashboard for customer and sales analytics, identifying top buyers, seasonal sales patterns, and key product trends. Enabled better decision-making with dynamic filters.",
     technologies: ["Tableau", "Data Analytics", "KPI Tracking", "Data Visualization"],  
@@ -170,7 +178,7 @@ export const projects: Project[] = [
     imageUrl: "https://www.highspot.com/wp-content/uploads/2023/07/essential-sales-skills.jpg"
   },
   {
-    id: 7,
+    id: 8,
     title: "Solar X-Ray Intensity Analysis",
     description: "Analyzed solar monitor data to identify intensity trends and anomalies. Improved data readability by 50% using Python-based visualizations and Excel, aiding scientific interpretation.",
     technologies: ["Python", "Data Cleaning", "Scientific Analysis", "Excel"],
@@ -179,7 +187,7 @@ export const projects: Project[] = [
     imageUrl: "https://cff2.earth.com/uploads/2025/04/16151643/sun_geomagnetic-solar-storm_cme_auroras_1m.webp"
   },
   {
-    id: 8,
+    id: 9,
     title: "Product Purchase Prediction",
     description: "Deployed a Streamlit-based app that predicts product purchase behavior using K-Nearest Neighbors. Trained on social network data to classify intent based on age and salary.",
     technologies: ["Machine Learning", "KNN", "Scikit-Learn", "Binary Classification", "Streamlit"],
@@ -188,7 +196,7 @@ export const projects: Project[] = [
     imageUrl: "https://www.hotelestequendama.com.co/assets/cache/uploads/tequendama-hoteles/destinos/cali/shopping/1920x1080/shopping-compras-cali-tequendama-hoteles-colombia-1708514344.jpeg"
   },
   {
-    id: 9,
+    id: 10,
     title: "Notezipper",
     description: "Location-based weather application with 7-day forecasts, radar maps, and severe weather alerts.",
     technologies: ["React"," JavaScript", "HTML", "CSS"],
@@ -278,7 +286,7 @@ export const skills: Skill[] = [
   },
   {
     id: 8,
-    name: "Microsoft Excel",
+    name: "Microsoft Office",
     category: "tool"
   },
   {
@@ -318,7 +326,7 @@ export const skills: Skill[] = [
   },
   {
     id: 16,
-    name: "IBM SPSS",
+    name: "Confluence",
     category: "tool"
   },
 
@@ -335,12 +343,12 @@ export const skills: Skill[] = [
   },
   {
     id: 19,
-    name: "Supervised Learning",
+    name: "System Design",
     category: "core"
   },
   {
     id: 20,
-    name: "Unsupervised Learning",
+    name: "Product Strategy",
     category: "core"
   },
   {
@@ -360,12 +368,17 @@ export const skills: Skill[] = [
   },
   {
     id: 24,
-    name: "Agile Methodologies",
+    name: "Agile",
     category: "core"
   },
   {
     id: 25,
     name: "Scrum",
+    category: "core"
+  },
+  {
+    id: 26,
+    name: "Customer Empathy",
     category: "core"
   }
 ];
@@ -393,7 +406,7 @@ export const interests: Interest[] = [
   },
   {
     id: 5,
-    name: "Watching Movies",
+    name: "Watching Sci-Fi Movies",
     icon: "fa-video"
   },
   {
